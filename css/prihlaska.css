@@ -1,0 +1,63 @@
+.center{
+    text-align: center;
+}
+
+.container-table {
+    overflow-x: auto;
+    background-color: #b5d6c6;
+    border-radius: 10px;
+    
+}
+
+.container-table::-webkit-scrollbar {
+    height: 0.5em;
+    background-color: rgb(211, 211, 211);
+}
+
+.container-table::-webkit-scrollbar-thumb {
+    border-radius: 13px;
+    background: linear-gradient(225deg, #9bc4c5, #c3dcf0);
+    box-shadow: -2px 1px 2px #a2d4d0, 2px -1px 2px #b6efef;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    padding-left: 25px;
+    min-width: auto;
+    white-space: nowrap;
+}
+
+tr:nth-child(even) {
+    background-color: #bcdfcd;
+    color: black;
+}
+
+.table-icon:hover {
+    opacity: 0.6;
+}
+
+.export-table {
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.btn-my{
+    
+    padding: 20px;
+
+}
+.btn-my input{
+    background-color: #11c9b9;
+    border-radius: 15px;
+    float: right;
+    margin-bottom: 15px;
+}
+
